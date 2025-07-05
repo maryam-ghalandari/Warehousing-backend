@@ -19,6 +19,9 @@
 # Mono auto generated files
 mono_crash.*
 
+#Squlite files
+DBFiles/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

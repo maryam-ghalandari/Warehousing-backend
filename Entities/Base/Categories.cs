@@ -6,9 +6,9 @@ using warehousing_backend.Enums;
 
 namespace warehousing_backend.Entities.Base
 {
-    public class Categories
+    public class Categories : Thing
     {
-        public Brands Brands { get; set; }
+        public Brand Brands { get; set; }
         public Skin Skin { get; set; }
         public Hair Hair { get; set; }
         public Instruments Instruments { get; set; }

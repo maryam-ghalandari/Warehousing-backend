@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace warehousing_backend.Entities.Base
 {
-    public class Outputs
+    public class Output : Thing
     {
         public required Product Productroduct { get; set; }
         public required string ClientName { get; set; }

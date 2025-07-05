@@ -1,6 +1,6 @@
 namespace warehousing_backend.Enums
 {
-    public enum Brands
+    public enum Brand 
     {
         Sunivera,
         Delano,
