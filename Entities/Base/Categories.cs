@@ -8,11 +8,9 @@ namespace warehousing_backend.Entities.Base
 {
     public class Categories : Thing
     {
-        public Brand Brands { get; set; }
         public Skin Skin { get; set; }
         public Hair Hair { get; set; }
-        public Instruments Instruments { get; set; }
-        public Perfume perfume { get; set; }
-        public Supplements Supplements { get; set; }
+        public Perfume Perfume { get; set; }
+        public Supplements Tools { get; set; }
     }
 }

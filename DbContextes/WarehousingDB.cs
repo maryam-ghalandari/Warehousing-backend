@@ -13,11 +13,11 @@ namespace warehousing_backend.DbContextes
     {
         public DbSet<Product> Products { get; set; }
         public DbSet<Client> Clients { get; set; }
+        public DbSet<Invoice> Invoices { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<Input> Inputs { get; set; }
         public DbSet<Output> Outputs { get; set; }
         public DbSet<Return> Returns { get; set; }
-        public DbSet<Invoice> Invoices { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

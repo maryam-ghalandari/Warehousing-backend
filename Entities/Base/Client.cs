@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace warehousing_backend.Entities.Base
 {
-    public class Client : Thing
+    public class Client : Invoice
     {
         public required string Firstname { get; set; }
         public required string Lastname { get; set; }
+        public required string NationalCode { get; set; }
+        public int Phone { get; set; } 
         public required double Mobile { get; set; }
-        public int Phone { get; set; }
-        // public EmailAddressAttribute? Email { get; set; }
-        public required string Address { get; set; }
+        public string? Email { get; set; }     
+        public required string HomeAddress { get; set; }
+        public required string WorkAddress { get; set; }
     }
 }

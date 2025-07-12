@@ -7,13 +7,9 @@ namespace warehousing_backend.Entities.Base
 {
     public class Input : Thing
     {
-        public required Product Productroduct { get; set; }
-        public required string CompanyName { get; set; }
-        public required string SalesPersonName { get; set; }
-        public required string SalesPersonPhon{ get; set; }
         public required string Warehouseman { get; set; }
-        public required int Number { get; set; }
-        public required double Price { get; set; }
+        public Product? Product { get; set; }
+        public string? Equipment { get; set; }
         public int Offer { get; set; }
         public int Discoubt { get; set; }
         public DateTime InTime { get; set; } 
